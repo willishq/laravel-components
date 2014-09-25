@@ -2,8 +2,6 @@
 
 namespace Willishq\LaravelComponents;
 
-use Illuminate\Support\Arr;
-
 /**
  * Class ExtractableTrait
  *
@@ -21,7 +19,7 @@ trait RetrievableTrait
     private function retrieve($type, $keys)
     {
         if (count($keys)) {
-            return call_user_func([Arr::class, $type], (array) $this, $keys);
+            return call_user_func(['\Illuminate\Support\Arr', $type], (array) $this, $keys);
         }
         return (array) $this;
 

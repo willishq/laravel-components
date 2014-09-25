@@ -1,5 +1,7 @@
 # Laravel components
 
+https://travis-ci.org/willishq/laravel-components.svg
+
 These are components which I use frequently when creating and maintaining a Laravel project, and two traits which I keep
 copying from project to project.
 
