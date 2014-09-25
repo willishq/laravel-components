@@ -20,9 +20,7 @@
         "illuminate/html": "~5.0"
     },
     "require-dev": {
-        "codeception/codeception": "2.0.*@dev",
-        "laracasts/testdummy": "~1.0",
-        "fzaninotto/faker": "1.4.*"
+        "phpunit/phpunit": "4.2.*"
     },
     "autoload": {
         "psr-0": {

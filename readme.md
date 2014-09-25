@@ -124,7 +124,7 @@ Documentation for all of the packages included can be found here:
 - [github.com/laracasts/commander](https://github.com/laracasts/Commander)
 - [github.com/barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar)
 
-For development, I've also included `codeception/codeception`, `laracasts/testdummy` and `fzaninotto/faker`
+For development and testing, I suggest you use `codeception/codeception`, `laracasts/testdummy` and `fzaninotto/faker`
 - [github.com/laracasts/Presenter](https://github.com/laracasts/TestDummy)
 - [github.com/fzaninotto/faker](https://github.com/fzaninotto/faker)
 - [github.com/codeception/codeception](https://github.com/codeception/codeception)
