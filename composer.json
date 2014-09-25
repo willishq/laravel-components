@@ -1,6 +1,8 @@
 {
     "name": "willishq/laravel-components",
     "description": "Components for Laravel 5",
+    "keywords": ["laravel", "laravel5", "setup"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Andrew Willis",
