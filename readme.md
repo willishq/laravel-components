@@ -1,6 +1,6 @@
 # Laravel components
 
-https://travis-ci.org/willishq/laravel-components.svg
+[![Build Status](https://travis-ci.org/willishq/laravel-components.svg)](https://travis-ci.org/willishq/laravel-components)
 
 These are components which I use frequently when creating and maintaining a Laravel project, and two traits which I keep
 copying from project to project.
