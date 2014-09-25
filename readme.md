@@ -1,13 +1,27 @@
-## Laravel components
+# Laravel components
 
 These are components which I use frequently when creating and maintaining a Laravel project, and two traits which I keep
 copying from project to project.
 
-### Traits
+## Installation
+
+Grab this package through Composer:
+
+```js
+{
+    "require" {
+        "willishq/laravel-components": "1.*"
+    }
+}
+```
+
+
+
+## Traits
 
 The two traits provided are the `EventableTrait` and the `RetrievableTrait`.
 
-#### EventableTrait Usage
+### EventableTrait Usage
 
 The `EventableTrait` is used in tandem with `laracasts\commander` package and enables you to raise and dispatch events
 directly on your objects (such as Eloquent models), along with firing events when the object is destroyed.
@@ -37,7 +51,7 @@ $model->raise(new ModelWasInstantiatedEvent($model));
 if you left the model like this, the event would be fired automatically by the `__destruct` method, or you can call
 `$model->dispatchEvents();` which would dispatch all remaining events.
 
-#### RetrievableTrait Usage
+### RetrievableTrait Usage
 
 The `RetrievableTrait` enables you to retrieve specific `public` keys from your objects. It provides you with two methods,
 `retrieveOnly` and `retrieveExcept`
@@ -75,11 +89,11 @@ $fields = $book->retrieveExcept('blurb');
 
 I have found this useful when dealing with DTO's.
 
-### Packages
+## Packages
 
 Please be sure to add the following to your `config/app.php` file to use the packages!
 
-#### Service Providers:
+### Service Providers:
 
 ```php
         // Laravel DebugBar
@@ -92,7 +106,7 @@ Please be sure to add the following to your `config/app.php` file to use the pac
         'Illuminate\Html\HtmlServiceProvider',
 ```
 
-#### Facades:
+### Facades:
 
 ```php
         'Debugbar'  => 'Barryvdh\Debugbar\Facade',
