@@ -113,7 +113,7 @@ Please be sure to add the following to your `config/app.php` file to use the pac
 ```php
         'Debugbar'  => 'Barryvdh\Debugbar\Facade',
         'Form'      => 'Illuminate\Html\FormFacade',
-        'Flash'     => 'Laracasts\Flash\Flash'
+        'Flash'     => 'Laracasts\Flash\Flash',
 ```
 
 Other packages included are: `laracasts/presenter` and `league/fractal`.
