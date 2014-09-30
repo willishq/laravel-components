@@ -3,6 +3,7 @@
 namespace Willishq\LaravelComponents;
 
 use Laracasts\Commander\Events\EventGenerator;
+use App;
 
 /**
  * Class EventableTrait
